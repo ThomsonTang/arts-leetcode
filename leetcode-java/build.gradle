@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.tt.arts'
+version = '0.0.1-SNAPSHOT'
+
+ext {
+    set('testngVersion', '6.14.3')
+    set('slf4jVersion', '1.7.25')
+    set('logbackVersion', '1.1.11')
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.slf4j:slf4j-api:${slf4jVersion}"
+    implementation "ch.qos.logback:logback-classic:${logbackVersion}"
+    testImplementation "org.testng:testng:${testngVersion}"
+}
