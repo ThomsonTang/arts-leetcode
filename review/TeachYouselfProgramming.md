@@ -11,4 +11,4 @@
 - Work on projects with other programmers.
 - Work on projects after other programmers.
 - Learn at least a half dozen programming languages.
-- remember that there is a 「computer」in computer science.
+- Remember that there is a 「computer」in computer science.
